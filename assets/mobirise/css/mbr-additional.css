@@ -1333,6 +1333,11 @@ a {
 .cid-tF1NVl7Y9w .mbr-section-title {
   color: #ffffff;
 }
+.cid-tF1NVl7Y9w .mbr-text,
+.cid-tF1NVl7Y9w .mbr-section-btn {
+  color: #ffffff;
+  text-align: center;
+}
 .cid-tF1JXRSYTc {
   padding-top: 0rem;
   padding-bottom: 0rem;
@@ -1360,6 +1365,10 @@ a {
 }
 .cid-tF1JXRSYTc img {
   width: 100%;
+}
+.cid-tF1JXRSYTc .mbr-description {
+  color: #ffffff;
+  text-align: center;
 }
 .cid-tF1yTIlqj6 {
   padding-top: 1rem;
