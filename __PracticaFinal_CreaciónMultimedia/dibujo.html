@@ -1,0 +1,76 @@
+<html lang="es">
+
+<body>
+
+
+<script src="funciones_dibujo.js"></script>
+
+<script> 
+
+var cc, sorteo;
+var i,j;
+var distant = 64
+iniciar_canvas(1024,1024);
+    
+    
+/*sorteo=Math.random()*10;
+        if (sorteo<2) composicion(1);
+        else composicion(2);*/
+
+rectangulo_relleno(0,0,1024,1024,148,148,255,1)
+
+circulo_relleno(Math.random()*256+64,Math.random()*256+32, Math.random()*2+64, 250,250, Math.random()*2,1);
+    
+for (i=0;i<5;i++)
+  for (j=0;j<2;j++)
+  {cc=Math.random()*5;
+    {if (cc<=5) { dibujar_frasco(Math.random()*1000*i,Math.random()+740, Math.random()*2+2, Math.random()*10,Math.random()*250, Math.random()*20,1);}  
+    }
+  }
+    
+  
+for (i=0;i<5;i++)
+  for (j=0;j<2;j++)
+  {cc=Math.random()*5;
+    {if (cc<=5) { dibujar_nubes(Math.random()*1000*i,Math.random()*600+30, Math.random()*2+2,1);}  
+    }
+  }
+    
+rectangulo_relleno(0,840,1024,256,120,34,8,1)    
+dibujar_supermario(Math.random()*340+32,840,1)
+    
+    
+//dibujar_nubes(100,100,5,1)
+
+    
+  for (i=0;i<30;i++)
+  for (j=0;j<10;j++)
+  {cc=Math.random()*10;
+    {if (cc<=1) { rectangulo_relleno(Math.random()*5+40*i,Math.random()*80+870, 64, 64, 1,1, 1,Math.random()+0.1);}
+     /*else { rectangulo_contorno(Math.random()*5+20*i,Math.random()*5+880*j,
+                       Math.random()*0.75,
+                      Math.random()*120,Math.random()*120,
+                      Math.random()*120,Math.random());}*/
+   }
+    
+  }
+/*
+}*/
+    //
+    //
+
+    
+ /*  for (i=0;i<1000;i=i+1)
+        {
+        dibujar_supermario(10+450*Math.random(),40+560*Math.random(),1);
+        dibujar_frasco(10+450*Math.random(),40+560*Math.random(),2*Math.random(),10+155*Math.random(),50*Math.random(),10+155*Math.random(),1);}
+*/
+    
+    //dibujar_frasco(400,400,4,22,185,45,1)
+    //dibujar_frasco(200,200,5,22,185,45,1)
+    //rombo_relleno (0, 0, 20, 210, 72, 28, 1)
+</script>
+
+</body>
+
+</html>
