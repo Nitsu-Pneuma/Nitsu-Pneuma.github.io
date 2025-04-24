@@ -10,12 +10,12 @@ body {
   font-size: 2.5rem;
 }
 .display-2 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.8rem;
+  font-family: 'Rowdies', display;
+  font-size: 2.4rem;
   line-height: 1.1;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 1rem;
+  font-size: 3rem;
 }
 .display-4 {
   font-family: 'Jost', sans-serif;
@@ -58,9 +58,9 @@ body {
     line-height: calc( 1.1 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 0.64rem;
-    font-size: calc( 0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.3 * (0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.92rem;
+    font-size: calc( 1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.88rem;
@@ -1911,6 +1911,33 @@ a {
   text-align: center;
   color: #ffffff;
 }
+.cid-uJk5T8EdP6 {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  background-color: #ffffff;
+}
+.cid-uJk5T8EdP6 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uJk5T8EdP6 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uJk5T8EdP6 .image-wrap img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-uJk5T8EdP6 .image-wrap img {
+    display: block;
+    margin: auto;
+    width: 30%;
+  }
+}
 .cid-tF1JXRSYTc {
   padding-top: 1rem;
   padding-bottom: 0rem;
@@ -3198,6 +3225,33 @@ a {
 .cid-tKE1C4O4Ye H3 {
   text-align: center;
   color: #ffffff;
+}
+.cid-uJk6MwEqgF {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  background-color: #ffffff;
+}
+.cid-uJk6MwEqgF .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uJk6MwEqgF .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uJk6MwEqgF .image-wrap img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-uJk6MwEqgF .image-wrap img {
+    display: block;
+    margin: auto;
+    width: 30%;
+  }
 }
 .cid-unwnGzs6JJ {
   padding-top: 1rem;
