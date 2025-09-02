@@ -1,5 +1,10 @@
 @font-face {
-   font-family: 'ethnocentric rg';
+   font-family: 'Lovecraftimus';
    font-display: swap;
-   src: url('ethnocentric rg/font.ttf');
+   src: url('Lovecraftimus/font.ttf');
+}
+@font-face {
+   font-family: 'ci-gamedev';
+   font-display: swap;
+   src: url('ci-gamedev/font.ttf');
 }
