@@ -1,10 +1,10 @@
 @font-face {
-   font-family: 'Lovecraftimus';
+   font-family: 'Game-Played';
    font-display: swap;
-   src: url('Lovecraftimus/font.ttf');
+   src: url('Game-Played/font.ttf');
 }
 @font-face {
-   font-family: 'ci-gamedev';
+   font-family: 'eight-bit-dragon';
    font-display: swap;
-   src: url('ci-gamedev/font.ttf');
+   src: url('eight-bit-dragon/font.ttf');
 }
